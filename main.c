@@ -1,10 +1,12 @@
 #include <stdio.h>
 
+#include "settings/settings.h"
 
 int main()
 {
-    int foo = 14;
-    int bar = 32;
-    int foobar = foo*bar;
+    int i = RESOLUTION[0];
+    int j = RESOLUTION[1];
     printf("Hello, world!\n");
+
+    return 0;
 }
